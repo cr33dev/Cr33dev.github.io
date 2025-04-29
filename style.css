@@ -563,7 +563,6 @@ body {
     70% { transform: scale(1); }
     100% { transform: scale(1); }
 }
-
 .bubbles {
     position: fixed;
     top: 0;
