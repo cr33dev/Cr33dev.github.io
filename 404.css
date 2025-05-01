@@ -5,547 +5,54 @@ body {
     overflow-x: hidden;
     text-align: center;
 }
-@media (max-width: 768px) {
-    header {
-        color: crimson;
-        height: fit-content;
-        background-color: #333;
-        width: 100%;
-        text-align: center;
-        font-size: 3rem;
-        padding: 0;
-    }
-
-    header h1 {
-        color: crimson;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    header h2 {
-        color: crimson;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    header a {
-        font-size: 2rem;
-        color: #FF00DDFF;
-        text-decoration: underline;
-        text-decoration-color: #FF00DDFF;
-        border-radius: 30px;
-        display: inline-block;
-        border: 2px solid #FF00DDFF;
-        padding: 5px 15px;
-        background-color: #333;
-        margin-bottom: 1.4rem;
-    }
-
-    header a:hover {
-        color: #333;
-        text-decoration-color: #333;
-        background-color: #FF00DDFF;
-    }
-
-    .projects {
-        background-color: #ff00ddff;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        border: 0;
-    }
-    .projects h1 {
-        padding-top: 1.2rem;
-        font-size: 3rem;
-        margin-bottom: 1.2rem;
-    }
-    .project-list {
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-    }
-    .project-card {
-        margin: 1rem;
-        border: 2px solid black;
-        border-radius: 1.5rem;
-        background-color: black;
-    }
-    .project-card h2 {
-        margin: 0;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        color: darkred;
-    }
-    .project-card p {
-        color: darkred;
-        font-size: 1.7rem;
-    }
-    .project-card a {
-        color: black;
-        font-size: 2rem;
-        text-decoration: none;
-        border-radius: 30px;
-        display: inline-block;
-        border: 2px solid darkred;
-        padding: 5px 15px;
-        background-color: darkred;
-        margin-bottom: 1.8rem;
-    }
-    .project-card:hover {
-        transform: scale(1.02);
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        background-color: darkred;
-        border-color: darkred;
-    }
-    .project-card:hover h2,
-    .project-card:hover p {
-        color: black;
-        transition: all 0.3s ease;
-    }
-    .project-card:hover a {
-        background-color: black;
-        border-color: black;
-        color: darkred;
-    }
-    .project-card img {
-        width: calc(100% - 2rem);
-        border: 2px solid darkred;
-    }
-    .section-divider {
-        width: 100%;
-        height: fit-content;
-        background-color: #333;
-    }
-    .section-divider h1 {
-        color: crimson;
-        border-bottom: 0;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-    }
-    .section-divider h2 {
-        color: crimson;
-        border-bottom: 0;
-        padding-bottom: 1rem;
-    }
-    .about-me {
-        background-color: #ff00ddff;
-
-    }
-    .flexbox1 {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1rem;
-        justify-content: center;
-    }
-    .flexbox1 img {
-        height: 2rem;
-        width: 2rem;
-        padding-top: 1rem;
-    }
-    .flexbox2 {
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        margin: 2rem 0;
-    }
-    .flexbox2 img {
-        height: 10rem;
-        width: 48%;
-    }
-    footer {
-        background-color: #333;
-        margin: 0;
-    }
-    footer p {
-        padding-top: 0;
-        margin: 0;
-        padding-bottom: 2rem;
-        color: crimson;
-    }
-
-    h1 {
-        font-size: 5rem;
-        margin: 0;
-    }
-    h2 {
-        font-size: 3rem;
-        margin: 0;
-    }
-    p {
-        padding-top: 2rem;
-        font-size:1.6rem;
-    }
-    body {
-        background-color: #333;
-    }
-    img {
-        width: 100%;
-    }
+body {
+    background-color: #222;
 }
-
-@media (min-width: 769px) and (max-width: 1920px) {
-    header {
-        color: crimson;
-        height: fit-content;
-        background-color: #333;
-        width: 100%;
-        text-align: center;
-        font-size: 3rem;
-        padding: 0;
-    }
-
-    header h1 {
-        color: crimson;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    header h2 {
-        color: crimson;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    header a {
-        font-size: 1.5rem;
-        color: #FF00DDFF;
-        text-decoration: underline;
-        text-decoration-color: #FF00DDFF;
-        border-radius: 30px;
-        display: inline-block;
-        border: 2px solid #FF00DDFF;
-        padding: 5px 15px;
-        background-color: #333;
-        margin-bottom: 1.4rem;
-    }
-    header a:hover{
-        color: #333;
-        text-decoration-color: #333;
-        background-color: #FF00DDFF;
-    }
-    .projects {
-        background-color: #ff00ddff;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        border: 0;
-    }
-    .projects h1 {
-        padding-top: 1.2rem;
-        font-size: 3rem;
-        margin-bottom: 1.2rem;
-    }
-    .project-list {
-        display: flex;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-    }
-    .project-card {
-        margin: 1rem;
-        border: 2px solid black;
-        border-radius: 1.5rem;
-        background-color: black;
-        width: calc((100vw - 2rem) / 2);
-    }
-    .project-card h2 {
-        margin: 0;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        color: darkred;
-    }
-    .project-card p {
-        color: darkred;
-        font-size: 1.7rem;
-    }
-    .project-card a {
-        color: black;
-        font-size: 2rem;
-        text-decoration: none;
-        border-radius: 30px;
-        display: inline-block;
-        border: 2px solid darkred;
-        padding: 5px 15px;
-        background-color: darkred;
-        margin-bottom: 1.8rem;
-    }
-    .project-card:hover {
-        transform: scale(1.02);
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        background-color: darkred;
-        border-color: darkred;
-    }
-    .project-card:hover h2,
-    .project-card:hover p {
-        color: black;
-        transition: all 0.3s ease;
-    }
-    .project-card:hover a {
-        background-color: black;
-        border-color: black;
-        color: darkred;
-    }
-    .project-card img {
-        width: calc(100% - 2rem);
-        border: 2px solid darkred;
-    }
-    .section-divider {
-        width: 100%;
-        height: fit-content;
-        background-color: #333;
-    }
-    .section-divider h1 {
-        color: crimson;
-        border-bottom: 0;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-    }
-    .section-divider h2 {
-        color: crimson;
-        border-bottom: 0;
-        padding-bottom: 1rem;
-    }
-    .about-me {
-        background-color: #ff00ddff;
-
-    }
-    .flexbox1 {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1rem;
-        justify-content: center;
-    }
-    .flexbox1 img {
-        height: 5rem;
-        width: 5rem;
-        padding-top: 1rem;
-    }
-    .flexbox2 {
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        margin: 2rem 0;
-    }
-    .flexbox2 img {
-        height: 10rem;
-    }
-    footer {
-        background-color: #333;
-        margin: 0;
-    }
-    footer p {
-        padding-top: 0;
-        margin: 0;
-        padding-bottom: 2rem;
-        color: crimson;
-    }
-
-    h1 {
-        font-size: 5rem;
-        margin: 0;
-    }
-    h2 {
-        font-size: 3rem;
-        margin: 0;
-    }
-    p {
-        padding-top: 2rem;
-        font-size:1.6rem;
-    }
-    body {
-        background-color: #333;
-    }
+header {
+    background-color: #222;
 }
-@media (min-width: 1280px) and (max-width: 1920px) {
-    h1 {
-        font-size: 8rem;
-    }
-    h2 {
-        font-size: 6rem;
-    }
-    p {
-        font-size: 2.5rem;
-    }
+.lightgrey {
+    background-color: #333;
 }
-
-@media (min-width: 1921px) {
-    header {
-        color: crimson;
-        height: fit-content;
-        background-color: #333;
-        width: 100%;
-        text-align: center;
-        padding: 0;
-    }
-
-    header h1 {
-        color: crimson;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    header h2 {
-        color: crimson;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    header a {
-        font-size: 8rem;
-        color: #FF00DDFF;
-        text-decoration: underline;
-        text-decoration-color: #FF00DDFF;
-        border-radius: 90px;
-        display: inline-block;
-        border: 6px solid #FF00DDFF;
-        padding: 1rem 4rem;
-        background-color: #333;
-        margin-bottom: 6rem;]
-
-    }
-    header a:hover{
-        color: #333;
-        text-decoration-color: #333;
-        background-color: #FF00DDFF;
-    }
-    .projects {
-        background-color: #ff00ddff;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        border: 0;
-    }
-    .projects h1 {
-        padding-top: 1.2rem;
-        font-size: 12rem;
-        margin-bottom: 1.2rem;
-    }
-    .project-list {
-        display: flex;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-    }
-    .project-card {
-        margin: 1rem;
-        border: 2px solid black;
-        border-radius: 1.5rem;
-        background-color: black;
-        width: calc((100vw - 2rem) / 2);
-    }
-    .project-card h2 {
-        margin: 0;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        color: darkred;
-    }
-    .project-card p {
-        color: darkred;
-        font-size: 1.7rem;
-    }
-    .project-card a {
-        color: black;
-        font-size: 2rem;
-        text-decoration: none;
-        border-radius: 30px;
-        display: inline-block;
-        border: 2px solid darkred;
-        padding: 5px 15px;
-        background-color: darkred;
-        margin-bottom: 1.8rem;
-    }
-    .project-card:hover {
-        transform: scale(1.02);
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        background-color: darkred;
-        border-color: darkred;
-    }
-    .project-card:hover h2,
-    .project-card:hover p {
-        color: black;
-        transition: all 0.3s ease;
-    }
-    .project-card:hover a {
-        background-color: black;
-        border-color: black;
-        color: darkred;
-    }
-    .project-card img {
-        width: calc(100% - 2rem);
-        border: 2px solid darkred;
-    }
-    .section-divider {
-        width: 100%;
-        height: fit-content;
-        background-color: #333;
-    }
-    .section-divider h1 {
-        color: crimson;
-        border-bottom: 0;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-    }
-    .section-divider h2 {
-        color: crimson;
-        border-bottom: 0;
-        padding-bottom: 1rem;
-    }
-    .about-me {
-        background-color: #ff00ddff;
-
-    }
-    .flexbox1 {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 3rem;
-        justify-content: center;
-    }
-    .flexbox1 img {
-        height: 15rem;
-        width: 15rem;
-        padding-top: 1rem;
-    }
-    .flexbox2 {
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        margin: 2rem 0;
-    }
-    .flexbox2 img {
-        height: 40rem;
-    }
-    footer {
-        background-color: #333;
-        margin: 0;
-    }
-    footer p {
-        padding-top: 5rem;
-        margin: 0;
-        padding-bottom: 2rem;
-        color: crimson;
-    }
-
-    h1 {
-        font-size: 5rem;
-        margin: 0;
-    }
-    h2 {
-        font-size: 3rem;
-        margin: 0;
-    }
-    p {
-        padding-top: 2rem;
-        font-size:1.6rem;
-    }
-    body {
-        background-color: #333;
-    }
-    h1 {
-        font-size: 15rem;
-    }
-    h2 {
-        font-size: 11rem;
-    }
-    p {
-        font-size: 8rem;
-    }
+h1 {
+    font-size: clamp(6rem, 8rem, 10rem);
+    color: crimson;
+    margin-top: clamp(0.5rem, 1rem, 3rem);
+    margin-bottom: clamp(1rem, 2rem, 6rem);
+}
+h2 {
+    color: crimson;
+    font-size: clamp(2rem, 4rem, 6rem);
+    margin-top: clamp(0.5rem, 1rem, 3rem);
+    margin-bottom: clamp(0.5rem, 1rem, 3rem);
+}
+h3 {
+    padding-top: clamp(4rem , 5vw, 10rem);
+    font-size: clamp(3rem , 5vw, 10rem);
+}
+h4 {
+    margin-bottom: 1rem;
+    font-size: clamp(2rem , 5vw, 10rem);
+    padding-bottom: 3rem;
+}
+a {
+    text-decoration: none;
+    border: 4px solid black;
+    padding: 0.5rem 1rem;
+    color: black;
+    background-color: crimson;
+    font-size: clamp(2rem , 5vw, 10rem);
+}
+a:hover {
+    color: crimson;
+    background-color: black;
+    border: 2px solid crimson;
+}
+p {
+    color: crimson;
+    font-size: clamp(2rem , 5vw, 10rem);
+    padding: 1rem;
+    margin: 0;
 }
 .heart {
     color: #ff0000;
@@ -573,7 +80,6 @@ body {
     z-index: 1;
     overflow: hidden;
 }
-
 .bubble {
     position: absolute;
     bottom: -100px;
@@ -581,7 +87,6 @@ body {
     background: rgba(255, 255, 255, 0.15);
     animation: rise linear infinite;
 }
-
 @keyframes rise {
     0% {
         transform: translateY(0) scale(1);
