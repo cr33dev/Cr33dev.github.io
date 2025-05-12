@@ -18,13 +18,13 @@ header a{
     text-decoration: none;
 }
 header a:hover{
-    color: navy;
+    color: gold;
 }
 body {
     background-color: #242424;
 }
 .background-change {
-    background-color: navy;
+    background-color: #000000;
 }
 
 .project-card {
