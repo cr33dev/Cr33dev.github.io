@@ -1,0 +1,212 @@
+
+/* color */
+
+header {
+    background-color: #242424;
+    border-color: #3a3a3a;
+    border-bottom: 2px solid white;
+    padding-bottom: 1.2rem;
+}
+header h1 {
+    color: crimson;
+}
+header h2{
+    color: #ffffff;
+}
+header a{
+    color: rebeccapurple;
+    text-decoration: none;
+}
+header a:hover{
+    color: navy;
+}
+body {
+    background-color: #242424;
+}
+.background-change {
+    background-color: navy;
+}
+
+.project-card {
+    border: 2px solid antiquewhite;
+    background-color: #3a3a3a;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem;
+    color: white;
+}
+.project-card img{
+    border: 2px solid antiquewhite;
+}
+.project-card h2{
+    color: crimson;
+}
+.project-card a{
+    color: rebeccapurple;
+    text-decoration: none;
+}
+.project-card a:hover{
+    color: navy;
+}
+.section-divider {
+    background-color: #3a3a3a;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+.section-divider h1{
+    color: crimson;
+}
+.section-divider h2{
+    color: #ffffff;
+}
+.about-me p {
+    color: gold;
+}
+.about-me h2{
+    color: #F5F5DC;
+}
+.about-me a{
+    color: crimson;
+    text-decoration: none;
+}
+.about-me a:hover{
+    color: gold;
+}
+footer{
+    background-color: #242424;
+    border-top: 2px solid white;
+    color: white;
+}
+.heart{
+    color: crimson;
+}
+/* formating */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height:100%;
+    width:100%;
+    text-align: center;
+}
+header h1 {
+    font-size: 4.5rem;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+}
+header h2{
+    font-size: 2.5rem;
+    padding-bottom: 0.5rem !important;
+}
+header a{
+    font-size: 1.5rem;
+}
+
+.project-flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 1rem;
+}
+.project-card {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 44rem;
+    height: 30.5rem;
+    padding: 0;
+}
+.project-card img{
+    width: 42rem;
+    height: 19rem;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.project-card h2{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+.project-card p{
+    font-size: 1.1rem;
+    padding: 0.5rem;
+}
+.project-card a{
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.section-divider {
+    width: 100%;
+    height: 9rem;
+    margin: 1rem 0;
+}
+.section-divider h1 {
+    font-size: 4rem;
+    padding-top: 0.7rem;
+}
+.section-divider h2 {
+    font-size: 2.4rem;
+    padding-top: 0;
+}
+
+
+.about-me p{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+.about-me h2{
+    font-size: 2.5rem;
+    padding: 0.5rem;
+}
+.about-me img{
+    width: 4rem;
+    height: 4rem;
+    margin: 0.5rem;
+}
+.stats-flexbox {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.stats-flexbox img{
+    width: 300px;
+    height: 150px;
+    margin: 0;
+    padding: 0.5rem;
+}
+footer{
+    padding: 1rem;
+    height: 7rem;
+}
+footer p{
+    font-size: 2rem;
+    padding: 0.7rem;
+}
+
+/* Heart */
+
+.heart {
+    font-size: clamp(1.2em, 1.5vw, 2em);
+    display: inline-block;
+    animation: heartbeat 1.2s ease-in-out infinite;
+    transform-origin: center;
+    will-change: transform;
+}
+@keyframes heartbeat {
+    0% { transform: scale(1); }
+    14% { transform: scale(1.3); }
+    28% { transform: scale(1); }
+    42% { transform: scale(1.3); }
+    70% { transform: scale(1); }
+    100% { transform: scale(1); }
+}
