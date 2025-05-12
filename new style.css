@@ -80,7 +80,7 @@ footer{
 .heart{
     color: crimson;
 }
-/* formating */
+/* formating 1080p */
 
 * {
     margin: 0;
@@ -91,6 +91,7 @@ html, body{
     height:100%;
     width:100%;
     text-align: center;
+    overflow-x: hidden;
 }
 header h1 {
     font-size: 4.5rem;
@@ -191,6 +192,99 @@ footer{
 footer p{
     font-size: 2rem;
     padding: 0.7rem;
+}
+
+/* formatting 4k */
+
+@media (min-width: 1920px) {
+    header h1 {
+        font-size: 5rem;
+    }
+    header h2{
+        font-size: 3rem;
+    }
+    header a{
+        font-size: 2rem;
+    }
+    .project-card {
+        width: 50rem;
+        height: 35rem;
+    }
+    .project-card img{
+        width: 48rem;
+        height: 22rem;
+    }
+    .project-card h2{
+        font-size: 1.8rem;
+    }
+    .project-card p{
+        font-size: 1.3rem;
+    }
+    .project-card a{
+        font-size: 1.6rem;
+    }
+}
+
+/* formatting 720p */
+
+@media (max-width: 1280px) {
+    header h1 {
+        font-size: 3.5rem;
+    }
+    header h2{
+        font-size: 2rem;
+    }
+    header a{
+        font-size: 1.2rem;
+    }
+    .project-card {
+        width: 35rem;
+        height: 25rem;
+    }
+    .project-card img{
+        width: 33rem;
+        height: 15rem;
+    }
+    .project-card h2{
+        font-size: 1.3rem;
+    }
+    .project-card p{
+        font-size: 1rem;
+    }
+    .project-card a{
+        font-size: 1.2rem;
+    }
+}
+
+/* formatting 480p */
+
+@media (max-width: 720px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+    header h2{
+        font-size: 1.5rem;
+    }
+    header a{
+        font-size: 1rem;
+    }
+    .project-card {
+        width: 25rem;
+        height: 25rem;
+    }
+    .project-card img{
+        width: 23rem;
+        height: 10rem;
+    }
+    .project-card h2{
+        font-size: 1.2rem;
+    }
+    .project-card p{
+        font-size: 0.9rem;
+    }
+    .project-card a{
+        font-size: 1rem;
+    }
 }
 
 /* Heart */
