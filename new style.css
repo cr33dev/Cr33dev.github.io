@@ -186,12 +186,12 @@ header a{
     padding: 0.5rem;
 }
 footer{
-    padding: 1rem;
-    height: 7rem;
+    padding: 0.5rem;
+    height: 6rem;
 }
 footer p{
-    font-size: 2rem;
-    padding: 0.7rem;
+    font-size: 1rem;
+    padding: 0.4rem;
 }
 
 /* formatting 4k */
@@ -284,6 +284,36 @@ footer p{
     }
     .project-card a{
         font-size: 1rem;
+    }
+}
+/* formatting 360p */
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    header h2{
+        font-size: 1.2rem;
+    }
+    header a{
+        font-size: 0.8rem;
+    }
+    .project-card {
+        width: 20rem;
+        height: 20rem;
+    }
+    .project-card img{
+        width: 18rem;
+        height: 8rem;
+    }
+    .project-card h2{
+        font-size: 1.1rem;
+    }
+    .project-card p{
+        font-size: 0.8rem;
+    }
+    .project-card a{
+        font-size: 0.9rem;
     }
 }
 
