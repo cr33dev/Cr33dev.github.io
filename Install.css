@@ -80,6 +80,8 @@ code {
     display: inline-block;
     font-family: 'Space Mono', monospace;
     border: 1px solid var(--border);
+    white-space: pre-wrap;
+    word-break: break-word;
 }
 .button-group {
     display: flex;
@@ -136,4 +138,42 @@ footer p {
     transform: none;
     box-shadow: none;
     text-decoration: underline;
+}
+.override-cyan {
+    color: cyan;
+}
+.override-crimson {
+    color: crimson;
+}
+.override-lime {
+    color: lime;
+}
+.override-purple {
+    color: purple;
+}
+.copy-button-btn {
+    background: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 0.3em 1em;
+    margin: 0;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+.copy-button-btn:hover {
+    color: crimson;
+    border-color: crimson;
+}
+@media (max-width: 768px) {
+    .button-group {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .button-group a {
+        width: 85%;
+        text-align: center;
+    }
 }

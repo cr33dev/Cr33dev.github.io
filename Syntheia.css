@@ -138,3 +138,22 @@ footer p {
     box-shadow: none;
     text-decoration: underline;
 }
+.override-cyan {
+    color: cyan;
+}
+.override-crimson {
+    color: crimson;
+}
+.override-lime {
+    color: lime;
+}
+@media (max-width: 768px) {
+    .button-group {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .button-group a {
+        width: 85%;
+        text-align: center;
+    }
+}

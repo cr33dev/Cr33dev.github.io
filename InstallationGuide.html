@@ -5,41 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Holo-byte Syntheia</title>
     <link href="Install.css" rel="stylesheet" type="text/css">
+    <script src="install.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
 <header>
     <div class="container">
         <h1>Holo-byte Syntheia</h1> <h1> Installation Guide</h1>
-        <p>A modern Discord bot for modern communities</p>
+        <p>A <span class="override-cyan">modern</span> Discord bot for <span class="override-cyan">modern</span> communities</p>
     </div>
 </header>
 <main class="pager">
     <section>
         <h2>Python Requirements</h2>
         <ul>
-            <li>Python 3.8+ (latest recommended)</li>
-            <li>imported discord.py library</li>
+            <li><span class="override-lime">Python 3.8+</span> (latest recommended)</li>
+            <li>imported <span class="override-lime">discord.py</span> library</li>
         </ul>
         <h2>Install Python</h2>
         <h3>Install - windows</h3>
-        <code>winget install Python.Python.3</code>
+        <code>winget install Python.Python.3<span class="copy-button"></span></code>
         <h3>Install - Ubuntu/Debian</h3>
-        <code>sudo apt install python3 python3-pip -y</code>
+        <code>sudo apt install python3 python3-pip -y<span class="copy-button"></span></code>
         <h2> Get discord library</h2>
         <h3>Windows/Ubuntu/Debian</h3>
-        <code>pip install discord.py</code>
+        <code>pip install discord.py<span class="copy-button"></span></code>
     </section>
     <section>
         <h2>Holo-Byte Components</h2>
         <ul>
-            <li>TheMain.py — Core bot functionality and command handling</li>
-            <li>dotenvloader.py — Secure credential management</li>
-            <li>.env - stores credentials</li>
-            <li>audioop.py — Allows the script to be run on the latest version of python</li>
+            <li><span class="override-cyan">TheMain.py</span> — Core bot functionality and command handling</li>
+            <li><span class="override-cyan">dotenvloader.py</span> — Secure credential management</li>
+            <li><span class="override-cyan">.env</span> - stores credentials</li>
+            <li><span class="override-cyan">audioop.py</span> — Allows the script to be run on the latest version of python</li>
         </ul>
         <h3>Get Holo-byte Components</h3>
-        <code>https://github.com/Cr33pkill/Holobyte-Syntheia-Discord-Bot/releases</code>
+        <code>https://github.com/Cr33pkill/Holobyte-Syntheia-Discord-Bot/releases<span class="copy-button"></span></code>
         <h3>Extract the components folder</h3>
         <h3>Note the file directory</h3>
     </section>
@@ -47,38 +48,38 @@
     <section>
         <h2>Make the Discord bot</h2>
         <h3>Go to the Discord Developer Portal </h3>
-        <code>https://discordapp.com/developers/applications</code>
+        <code>https://discordapp.com/developers/applications<span class="copy-button"></span></code>
         <h3>Our recommended guide for this step</h3>
-        <code>https://www.youtube.com/watch?v=zrNloK9b1ro</code>
+        <code>https://www.youtube.com/watch?v=zrNloK9b1ro<span class="copy-button"></span></code>
     </section>
 
     <section>
         <h2>Set up the .env file</h2>
         <h3>Open the .env file in a text editor</h3>
         <h2>Filling in the .env</h2>
-        <h3>DISCORD_TOKEN={token from the Discord Developer Portal}</h3>
+        <h3><span class="override-purple">DISCORD_TOKEN=</span>{token from the Discord Developer Portal}</h3>
         <h3></h3><h3> Example below:</h3>
-        <code>DISCORD_TOKEN=NDY3ODk0MTI3Mjk3NjE0NTY3.Demo.ExAMPLet0kENf0rTutORIA1Use</code>
-        <h3>DISCORD_GUILD={id that you can copy from your guild}</h3>
+        <code><span class="override-purple">DISCORD_TOKEN=</span>NDY3ODk0MTI3Mjk3NjE0NTY3.Demo.ExAMPLet0kENf0rTutORIA1Use<span class="copy-button"></span></code>
+        <h3><span class="override-purple">DISCORD_GUILD=</span>{id that you can copy from your guild}</h3>
         <h3>Example below:</h3>
-        <code>DISCORD_GUILD=123456789012345678</code>
-        <h3>DISCORD_CHANNEL={id of desired alerts channel}</h3>
+        <code><span class="override-purple">DISCORD_GUILD=</span>123456789012345678<span class="copy-button"></span></code>
+        <h3><span class="override-purple">DISCORD_CHANNEL=</span>{id of desired alerts channel}</h3>
         <h3>Example below:</h3>
-        <code>DISCORD_CHANNEL=123456789012345678</code>
-        <h3>OWNER1={id that you can copy from your user}</h3>
+        <code><span class="override-purple">DISCORD_CHANNEL=</span>123456789012345678<span class="copy-button"></span></code>
+        <h3><span class="override-purple">OWNER1=</span>{id that you can copy from your user}</h3>
         <h3>Example below:</h3>
-        <code>OWNER1=123456789012345678</code>
-        <h3>OWNER2={id that you can copy from your user}</h3>
+        <code><span class="override-purple">OWNER1=</span>123456789012345678<span class="copy-button"></span></code>
+        <h3><span class="override-purple">OWNER2=</span>{id that you can copy from your user}</h3>
         <h3>Example below:</h3>
-        <code>OWNER2=123456789012345678</code>
+        <code><span class="override-purple">OWNER2=</span>123456789012345678<span class="copy-button"></span></code>
     </section>
     <section>
         <h2>Running the bot</h2>
         <h3>in Windows/Ubuntu/Debian open terminal</h3>
-        <h3>cd into the file directory</h3>
-        <code>cd /path/to/your/directory</code>
+        <h3><span class="override-purple">cd</span> into the file directory</h3>
+        <code><span class="override-purple">cd</span> /path/to/your/directory<span class="copy-button"></span></code>
         <h3>Run the bot</h3>
-        <code>python3 TheMain.py</code>
+        <code>python3 TheMain.py<span class="copy-button"></span><span class="copy-button"></span></code>
     </section>
     <section>
         <h2>External Links</h2>
