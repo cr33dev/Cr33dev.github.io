@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Main homepage -->
     <url>
-        <loc>http://cr33pkill.software/Syntheia.html</loc>
+        <loc>https://cr33pkill.software/</loc>
+        <changefreq>hourly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Syntheia project page -->
+    <url>
+        <loc>https://cr33pkill.software/Syntheia.html</loc>
         <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Installation guide -->
+    <url>
+        <loc>https://cr33pkill.software/InstallationGuide.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Error page -->
+    <url>
+        <loc>https://cr33pkill.software/404.html</loc>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
     </url>
 </urlset>
