@@ -324,6 +324,11 @@ header a:hover {
     position: relative;
     box-shadow: 0 0 15px var(--purple),
     0 0 30px var(--pink);
+    transition: transform 0.8s ease-in-out;
+}
+
+.CIRCULAR:hover {
+    transform: rotate(360deg);
 }
 
 .CIRCULAR::before {
@@ -336,12 +341,13 @@ header a:hover {
     background: linear-gradient(45deg, transparent, var(--purple), transparent);
     border-radius: 50%;
     z-index: -1;
-    animation: rotate 3s linear infinite;
+    opacity: 0;
+    transition: opacity 0.7s ease;
 }
 
-@keyframes rotate {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+.CIRCULAR:hover::before {
+    opacity: 1;
+    animation: rotate 6s linear infinite;
 }
 
 .CIRCULAR img {
@@ -349,6 +355,15 @@ header a:hover {
     height: 242px;
     object-fit: cover;
     border-radius: 50%;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 /*==============================
@@ -441,27 +456,32 @@ footer p {
         flex-direction: column;
         align-items: center;
     }
-.section-divider h4 {
-    font-size: 2.5rem;
-    padding: 0.5rem;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 0 var(--purple);
-    letter-spacing: 1px;
-}
-.section-divider h1 {
-    font-size: 2rem;
-    padding: 0.1rem;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 0 var(--purple);
-    letter-spacing: 1px;
-}
-.section-divider h2 {
-    font-size: 1.5rem;
-    padding: 0.1rem;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 0 var(--purple);
-    letter-spacing: 1px;
-}
-.section-divider{
-    height: 7.3rem;
+
+    .section-divider h4 {
+        font-size: 2.5rem;
+        padding: 0.5rem;
+        text-transform: uppercase;
+        text-shadow: 2px 2px 0 var(--purple);
+        letter-spacing: 1px;
+    }
+
+    .section-divider h1 {
+        font-size: 2rem;
+        padding: 0.1rem;
+        text-transform: uppercase;
+        text-shadow: 2px 2px 0 var(--purple);
+        letter-spacing: 1px;
+    }
+
+    .section-divider h2 {
+        font-size: 1.5rem;
+        padding: 0.1rem;
+        text-transform: uppercase;
+        text-shadow: 2px 2px 0 var(--purple);
+        letter-spacing: 1px;
+    }
+
+    .section-divider {
+        height: 7.3rem;
+    }
 }
