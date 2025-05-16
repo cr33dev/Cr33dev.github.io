@@ -1,7 +1,6 @@
-/*==============================
-    CSS Variables (JoJo Theme)
-==============================*/
-
+/*====================`
+    Colors and base
+=======================*/
 :root {
     --primary-bg: #1d1d1d;
     --secondary-bg: #2a1a3a;
@@ -12,15 +11,11 @@
     --text-hover: #ffd700;
     --card-border: #c39bd3;
     --card-bg: #2e294e;
-    --jojo-yellow: #ffeb3b;
-    --jojo-purple: #9c27b0;
-    --jojo-pink: #e91e63;
-    --jojo-blue: #3f51b5;
+    --yellow: #ffeb3b;
+    --purple: #9c27b0;
+    --pink: #e91e63;
+    --blue: #3f51b5;
 }
-
-/*==============================
-    Global Styles & Reset
-==============================*/
 
 * {
     margin: 0;
@@ -39,17 +34,17 @@ html, body {
 }
 
 ::selection {
-    background-color: var(--jojo-yellow);
-    color: var(--jojo-purple);
+    background-color: var(--yellow);
+    color: var(--purple);
 }
 
 /*==============================
-    JoJo Header
+    Header
 ==============================*/
 
 header {
     background: linear-gradient(135deg, var(--secondary-bg), var(--primary-bg));
-    border-bottom: 4px solid var(--jojo-yellow);
+    border-bottom: 4px solid var(--yellow);
     padding-bottom: 1.2rem;
     position: relative;
     overflow: hidden;
@@ -74,12 +69,12 @@ header::before {
 }
 
 header h1 {
-    color: var(--jojo-yellow);
+    color: var(--yellow);
     font-size: 4.5rem;
     font-family: "Impact", "Arial Black", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    text-shadow: 4px 4px 0 var(--jojo-purple), 8px 8px 0 rgba(0, 0, 0, 0.3);
+    text-shadow: 4px 4px 0 var(--purple), 8px 8px 0 rgba(0, 0, 0, 0.3);
     transform: skew(-5deg);
     padding: 0.5rem 0;
     position: relative;
@@ -90,13 +85,13 @@ header h2 {
     color: var(--text-main);
     font-size: 2.5rem;
     font-style: italic;
-    text-shadow: 2px 2px var(--jojo-pink);
+    text-shadow: 2px 2px var(--pink);
     position: relative;
     z-index: 2;
 }
 
 header a {
-    color: var(--jojo-yellow);
+    color: var(--yellow);
     text-decoration: none;
     font-size: 1.5rem;
     text-transform: uppercase;
@@ -104,12 +99,12 @@ header a {
     position: relative;
     z-index: 2;
     font-weight: bold;
-    text-shadow: 1px 1px 0 var(--jojo-purple);
+    text-shadow: 1px 1px 0 var(--purple);
     transition: all 0.3s;
 }
 
 header a:hover {
-    color: var(--jojo-pink);
+    color: var(--pink);
     transform: scale(1.1);
 }
 
@@ -135,9 +130,9 @@ header a:hover {
 }
 
 .section-divider {
-    background: linear-gradient(90deg, var(--jojo-purple), var(--secondary-bg), var(--jojo-purple));
-    border-top: 3px solid var(--jojo-yellow);
-    border-bottom: 3px solid var(--jojo-yellow);
+    background: linear-gradient(90deg, var(--purple), var(--secondary-bg), var(--purple));
+    border-top: 3px solid var(--yellow);
+    border-bottom: 3px solid var(--yellow);
     position: relative;
     overflow: hidden;
     height: 12rem;
@@ -153,11 +148,11 @@ header a:hover {
 }
 
 .section-divider h1 {
-    color: var(--jojo-yellow);
+    color: var(--yellow);
     font-size: 4rem;
     text-transform: uppercase;
     letter-spacing: 3px;
-    text-shadow: 3px 3px 0 var(--jojo-purple);
+    text-shadow: 3px 3px 0 var(--purple);
     transform: skew(-5deg);
     padding-top: 0.7rem;
 }
@@ -166,7 +161,7 @@ header a:hover {
     color: var(--text-main);
     font-size: 2.4rem;
     font-style: italic;
-    text-shadow: 2px 2px var(--jojo-pink);
+    text-shadow: 2px 2px var(--pink);
 }
 
 /*==============================
@@ -184,9 +179,9 @@ header a:hover {
 
 .project-card {
     background: linear-gradient(145deg, var(--card-bg), var(--secondary-bg));
-    border: 3px solid var(--jojo-purple);
+    border: 3px solid var(--purple);
     border-radius: 10px;
-    box-shadow: 5px 5px 0 var(--jojo-yellow);
+    box-shadow: 5px 5px 0 var(--yellow);
     color: white;
     width: 44rem;
     height: 33.5rem;
@@ -199,7 +194,7 @@ header a:hover {
 
 .project-card:hover {
     transform: scale(1.03) rotate(1deg);
-    box-shadow: 8px 8px 0 var(--jojo-yellow);
+    box-shadow: 8px 8px 0 var(--yellow);
 }
 
 
@@ -210,7 +205,7 @@ header a:hover {
 .project-card img {
     width: 42rem;
     height: 19rem;
-    border: 2px solid var(--jojo-yellow);
+    border: 2px solid var(--yellow);
     border-radius: 10px;
     margin: 0 auto;
     transition: all 0.3s;
@@ -221,11 +216,11 @@ header a:hover {
 }
 
 .project-card h2 {
-    color: var(--jojo-yellow);
+    color: var(--yellow);
     font-size: 1.5rem;
     padding: 0.5rem;
     text-transform: uppercase;
-    text-shadow: 2px 2px 0 var(--jojo-purple);
+    text-shadow: 2px 2px 0 var(--purple);
 }
 
 .project-card p {
@@ -235,7 +230,7 @@ header a:hover {
 }
 
 .project-card a {
-    color: var(--jojo-yellow);
+    color: var(--yellow);
     text-decoration: none;
     font-size: 1.4rem;
     margin: 1rem;
@@ -247,7 +242,7 @@ header a:hover {
 }
 
 .project-card a:hover {
-    color: var(--jojo-pink);
+    color: var(--pink);
     transform: scale(1.1);
 }
 
@@ -261,51 +256,51 @@ header a:hover {
 }
 
 .about-me p {
-    color: var(--jojo-yellow);
+    color: var(--yellow);
     font-size: 1.5rem;
     padding: 0.5rem;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
 }
 
 .about-me h2 {
-    color: var(--jojo-pink);
+    color: var(--pink);
     font-size: 2.5rem;
     padding: 0.5rem;
     text-transform: uppercase;
-    text-shadow: 2px 2px 0 var(--jojo-purple);
+    text-shadow: 2px 2px 0 var(--purple);
     letter-spacing: 1px;
 }
 
 .about-me h3 {
     color: var(--text-main);
     font-size: 1.8rem;
-    text-shadow: 1px 1px 0 var(--jojo-purple);
+    text-shadow: 1px 1px 0 var(--purple);
     font-style: italic;
 }
 .about-me h4{
-    color: var(--jojo-pink);
+    color: var(--pink);
     font-size: 4.5rem;
     padding: 2rem;
     text-transform: uppercase;
-    text-shadow: 2px 2px 0 var(--jojo-purple);
+    text-shadow: 2px 2px 0 var(--purple);
     letter-spacing: 1px;
 }
 .about-me a {
-    color: var(--jojo-yellow);
+    color: var(--yellow);
     text-decoration: none;
     font-weight: bold;
     transition: all 0.2s;
 }
 
 .about-me a:hover {
-    color: var(--jojo-pink);
+    color: var(--pink);
 }
 
 .about-me img {
     width: 4rem;
     height: 4rem;
     margin: 0.5rem;
-    filter: drop-shadow(0 0 3px var(--jojo-purple));
+    filter: drop-shadow(0 0 3px var(--purple));
     transition: all 0.3s;
 }
 
@@ -318,7 +313,7 @@ header a:hover {
 ==============================*/
 
 .CIRCULAR {
-    border: 5px solid var(--jojo-yellow);
+    border: 5px solid var(--yellow);
     border-radius: 50%;
     height: 245px;
     width: 245px;
@@ -327,8 +322,8 @@ header a:hover {
     justify-content: center;
     margin: 1rem auto;
     position: relative;
-    box-shadow: 0 0 15px var(--jojo-purple),
-    0 0 30px var(--jojo-pink);
+    box-shadow: 0 0 15px var(--purple),
+    0 0 30px var(--pink);
 }
 
 .CIRCULAR::before {
@@ -338,7 +333,7 @@ header a:hover {
     height: 110%;
     top: -5%;
     left: -5%;
-    background: linear-gradient(45deg, transparent, var(--jojo-purple), transparent);
+    background: linear-gradient(45deg, transparent, var(--purple), transparent);
     border-radius: 50%;
     z-index: -1;
     animation: rotate 3s linear infinite;
@@ -375,7 +370,7 @@ header a:hover {
     height: 150px;
     padding: 0.5rem;
     transition: all 0.3s;
-    filter: drop-shadow(0 0 5px var(--jojo-purple));
+    filter: drop-shadow(0 0 5px var(--purple));
 }
 
 .stats-flexbox img:hover {
@@ -388,7 +383,7 @@ header a:hover {
 
 footer {
     background: linear-gradient(135deg, var(--secondary-bg), var(--primary-bg));
-    border-top: 4px solid var(--jojo-yellow);
+    border-top: 4px solid var(--yellow);
     color: white;
     padding: 0.5rem;
     height: 6rem;
@@ -403,12 +398,12 @@ footer p {
 }
 
 .heart {
-    color: var(--jojo-pink);
+    color: var(--pink);
     font-size: clamp(1.2em, 1.5vw, 2em);
     display: inline-block;
     animation: heartbeat 1.2s ease-in-out infinite;
     transform-origin: center;
-    text-shadow: 0 0 5px var(--jojo-yellow);
+    text-shadow: 0 0 5px var(--yellow);
 }
 
 @keyframes heartbeat {
@@ -418,4 +413,55 @@ footer p {
 .flexbox1 {
     position: relative;
     z-index: 2;
+}
+
+/*==============================
+    Media Queries
+==============================*/
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 3rem;
+    }
+
+    header h2 {
+        font-size: 2rem;
+    }
+
+    .project-card {
+        width: 90%;
+        height: auto;
+    }
+
+    .project-card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .project-flexbox {
+        flex-direction: column;
+        align-items: center;
+    }
+.section-divider h4 {
+    font-size: 2.5rem;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0 var(--purple);
+    letter-spacing: 1px;
+}
+.section-divider h1 {
+    font-size: 2rem;
+    padding: 0.1rem;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0 var(--purple);
+    letter-spacing: 1px;
+}
+.section-divider h2 {
+    font-size: 1.5rem;
+    padding: 0.1rem;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0 var(--purple);
+    letter-spacing: 1px;
+}
+.section-divider{
+    height: 7.3rem;
 }
