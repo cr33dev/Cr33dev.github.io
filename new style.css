@@ -1,17 +1,21 @@
 /*==============================
-    CSS Variables (Theme Colors)
+    CSS Variables (JoJo Theme)
 ==============================*/
 
 :root {
-    --primary-bg: #242424;
-    --secondary-bg: #3a3a3a;
-    --highlight-bg: #000000;
-    --text-main: #ffffff;
-    --text-accent: crimson;
-    --text-link: rebeccapurple;
-    --text-hover: gold;
-    --card-border: antiquewhite;
-    --card-bg: #3a3a3a;
+    --primary-bg: #1d1d1d;
+    --secondary-bg: #2a1a3a;
+    --highlight-bg: #1a1a2e;
+    --text-main: #f2f2f2;
+    --text-accent: #ff5e8f;
+    --text-link: #b983ff;
+    --text-hover: #ffd700;
+    --card-border: #c39bd3;
+    --card-bg: #2e294e;
+    --jojo-yellow: #ffeb3b;
+    --jojo-purple: #9c27b0;
+    --jojo-pink: #e91e63;
+    --jojo-blue: #3f51b5;
 }
 
 /*==============================
@@ -31,44 +35,82 @@ html, body {
     text-align: center;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    font-family: "Arial Black", "Helvetica Bold", sans-serif;
 }
 
 ::selection {
-    background-color: var(--text-accent);
-    color: var(--primary-bg);
-    transition: background-color 0.3s ease;
+    background-color: var(--jojo-yellow);
+    color: var(--jojo-purple);
 }
 
 /*==============================
-    Header
+    JoJo Header
 ==============================*/
 
 header {
-    background-color: var(--primary-bg);
-    border-bottom: 2px solid white;
+    background: linear-gradient(135deg, var(--secondary-bg), var(--primary-bg));
+    border-bottom: 4px solid var(--jojo-yellow);
     padding-bottom: 1.2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: repeating-linear-gradient(
+            45deg,
+            transparent,
+            transparent 10px,
+            rgba(156, 39, 176, 0.05) 10px,
+            rgba(156, 39, 176, 0.05) 20px
+    );
+    z-index: 1;
+    pointer-events: none;
 }
 
 header h1 {
-    color: var(--text-accent);
+    color: var(--jojo-yellow);
     font-size: 4.5rem;
+    font-family: "Impact", "Arial Black", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 4px 4px 0 var(--jojo-purple), 8px 8px 0 rgba(0, 0, 0, 0.3);
+    transform: skew(-5deg);
     padding: 0.5rem 0;
+    position: relative;
+    z-index: 2;
 }
 
 header h2 {
     color: var(--text-main);
     font-size: 2.5rem;
-    padding-bottom: 0.5rem;
+    font-style: italic;
+    text-shadow: 2px 2px var(--jojo-pink);
+    position: relative;
+    z-index: 2;
 }
 
 header a {
-    color: var(--text-link);
+    color: var(--jojo-yellow);
     text-decoration: none;
     font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    z-index: 2;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 var(--jojo-purple);
+    transition: all 0.3s;
 }
 
 header a:hover {
-    color: var(--text-hover);
+    color: var(--jojo-pink);
+    transform: scale(1.1);
 }
 
 /*==============================
@@ -77,25 +119,54 @@ header a:hover {
 
 .background-change {
     background-color: var(--highlight-bg);
+    position: relative;
+}
+
+.background-change::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C27B0' fill-opacity='0.05' fill-rule='evenodd'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40'/%3E%3C/g%3E%3C/svg%3E");
+    z-index: 1;
+    pointer-events: none;
 }
 
 .section-divider {
-    background-color: var(--secondary-bg);
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
-    height: 9rem;
+    background: linear-gradient(90deg, var(--jojo-purple), var(--secondary-bg), var(--jojo-purple));
+    border-top: 3px solid var(--jojo-yellow);
+    border-bottom: 3px solid var(--jojo-yellow);
+    position: relative;
+    overflow: hidden;
+    height: 12rem;
     margin: 1rem 0;
 }
 
+.section-divider::before {
+    left: 15px;
+}
+
+.section-divider::after {
+    right: 15px;
+}
+
 .section-divider h1 {
-    color: var(--text-accent);
+    color: var(--jojo-yellow);
     font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 0 var(--jojo-purple);
+    transform: skew(-5deg);
     padding-top: 0.7rem;
 }
 
 .section-divider h2 {
     color: var(--text-main);
     font-size: 2.4rem;
+    font-style: italic;
+    text-shadow: 2px 2px var(--jojo-pink);
 }
 
 /*==============================
@@ -107,86 +178,139 @@ header a:hover {
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
+    position: relative;
+    z-index: 2;
 }
 
 .project-card {
-    background-color: var(--card-bg);
-    border: 2px solid var(--card-border);
+    background: linear-gradient(145deg, var(--card-bg), var(--secondary-bg));
+    border: 3px solid var(--jojo-purple);
     border-radius: 10px;
+    box-shadow: 5px 5px 0 var(--jojo-yellow);
     color: white;
     width: 44rem;
-    height: 30.5rem;
+    height: 33.5rem;
     margin: 1rem;
     padding: 0;
     transition: all 0.3s ease-in-out;
+    position: relative;
+    transform-style: preserve-3d;
 }
 
 .project-card:hover {
-    transform: scale(1.01);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.03) rotate(1deg);
+    box-shadow: 8px 8px 0 var(--jojo-yellow);
+}
+
+
+.project-card:hover::after {
+    opacity: 1;
 }
 
 .project-card img {
     width: 42rem;
     height: 19rem;
-    border: 2px solid var(--card-border);
+    border: 2px solid var(--jojo-yellow);
     border-radius: 10px;
     margin: 0 auto;
+    transition: all 0.3s;
+}
+
+.project-card:hover img {
+    filter: saturate(1.3) contrast(1.1);
 }
 
 .project-card h2 {
-    color: var(--text-accent);
+    color: var(--jojo-yellow);
     font-size: 1.5rem;
     padding: 0.5rem;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0 var(--jojo-purple);
 }
 
 .project-card p {
     font-size: 1.1rem;
     padding: 0.5rem;
+    color: var(--text-main);
 }
 
 .project-card a {
-    color: var(--text-link);
+    color: var(--jojo-yellow);
     text-decoration: none;
     font-size: 1.4rem;
     margin: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    transition: all 0.2s;
 }
 
 .project-card a:hover {
-    color: navy;
+    color: var(--jojo-pink);
+    transform: scale(1.1);
 }
 
 /*==============================
     About Me Section
 ==============================*/
 
+.about-me {
+    position: relative;
+    z-index: 2;
+}
+
 .about-me p {
-    color: var(--text-hover);
+    color: var(--jojo-yellow);
     font-size: 1.5rem;
     padding: 0.5rem;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
 }
 
 .about-me h2 {
-    color: #f5f5dc;
+    color: var(--jojo-pink);
     font-size: 2.5rem;
     padding: 0.5rem;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0 var(--jojo-purple);
+    letter-spacing: 1px;
 }
-.about-me h3{
+
+.about-me h3 {
     color: var(--text-main);
+    font-size: 1.8rem;
+    text-shadow: 1px 1px 0 var(--jojo-purple);
+    font-style: italic;
+}
+.about-me h4{
+    color: var(--jojo-pink);
+    font-size: 4.5rem;
+    padding: 2rem;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0 var(--jojo-purple);
+    letter-spacing: 1px;
 }
 .about-me a {
-    color: var(--text-accent);
+    color: var(--jojo-yellow);
     text-decoration: none;
+    font-weight: bold;
+    transition: all 0.2s;
 }
 
 .about-me a:hover {
-    color: var(--text-hover);
+    color: var(--jojo-pink);
 }
 
 .about-me img {
     width: 4rem;
     height: 4rem;
     margin: 0.5rem;
+    filter: drop-shadow(0 0 3px var(--jojo-purple));
+    transition: all 0.3s;
+}
+
+.about-me img:hover {
+    transform: rotate(10deg) scale(1.1);
 }
 
 /*==============================
@@ -194,7 +318,7 @@ header a:hover {
 ==============================*/
 
 .CIRCULAR {
-    border: 3px solid white;
+    border: 5px solid var(--jojo-yellow);
     border-radius: 50%;
     height: 245px;
     width: 245px;
@@ -202,6 +326,27 @@ header a:hover {
     align-items: center;
     justify-content: center;
     margin: 1rem auto;
+    position: relative;
+    box-shadow: 0 0 15px var(--jojo-purple),
+    0 0 30px var(--jojo-pink);
+}
+
+.CIRCULAR::before {
+    content: "";
+    position: absolute;
+    width: 110%;
+    height: 110%;
+    top: -5%;
+    left: -5%;
+    background: linear-gradient(45deg, transparent, var(--jojo-purple), transparent);
+    border-radius: 50%;
+    z-index: -1;
+    animation: rotate 3s linear infinite;
+}
+
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }
 
 .CIRCULAR img {
@@ -221,12 +366,20 @@ header a:hover {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    position: relative;
+    z-index: 2;
 }
 
 .stats-flexbox img {
     width: 300px;
     height: 150px;
     padding: 0.5rem;
+    transition: all 0.3s;
+    filter: drop-shadow(0 0 5px var(--jojo-purple));
+}
+
+.stats-flexbox img:hover {
+    transform: scale(1.05);
 }
 
 /*==============================
@@ -234,80 +387,35 @@ header a:hover {
 ==============================*/
 
 footer {
-    background-color: var(--primary-bg);
-    border-top: 2px solid white;
+    background: linear-gradient(135deg, var(--secondary-bg), var(--primary-bg));
+    border-top: 4px solid var(--jojo-yellow);
     color: white;
     padding: 0.5rem;
     height: 6rem;
+    position: relative;
 }
 
 footer p {
     font-size: 1rem;
     line-height: 1.5;
+    color: var(--text-main);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
 }
 
 .heart {
-    color: var(--text-accent);
+    color: var(--jojo-pink);
     font-size: clamp(1.2em, 1.5vw, 2em);
     display: inline-block;
     animation: heartbeat 1.2s ease-in-out infinite;
     transform-origin: center;
+    text-shadow: 0 0 5px var(--jojo-yellow);
 }
 
 @keyframes heartbeat {
     0%, 28%, 70%, 100% { transform: scale(1); }
     14%, 42% { transform: scale(1.3); }
 }
-
-/*==============================
-    Responsive Media Queries
-==============================*/
-
-/* 4K+ */
-@media (min-width: 1920px) {
-    header h1 { font-size: 5rem; }
-    header h2 { font-size: 3rem; }
-    header a { font-size: 2rem; }
-    .project-card { width: 50rem; height: 35rem; }
-    .project-card img { width: 48rem; height: 22rem; }
-    .project-card h2 { font-size: 1.8rem; }
-    .project-card p { font-size: 1.3rem; }
-    .project-card a { font-size: 1.6rem; }
-}
-
-/* 720p - 1080p */
-@media (max-width: 1280px) {
-    header h1 { font-size: 3.5rem; }
-    header h2 { font-size: 2rem; }
-    header a { font-size: 1.2rem; }
-    .project-card { width: 35rem; height: 25rem; }
-    .project-card img { width: 33rem; height: 15rem; }
-    .project-card h2 { font-size: 1.3rem; }
-    .project-card p { font-size: 1rem; }
-    .project-card a { font-size: 1.2rem; }
-}
-
-/* Mobile - 480p to 720p */
-@media (max-width: 720px) {
-    header h1 { font-size: 2.5rem; }
-    header h2 { font-size: 1.5rem; }
-    header a { font-size: 1rem; }
-    .project-flexbox { flex-direction: column; }
-    .project-card { width: 25rem; height: 25rem; }
-    .project-card img { width: 23rem; height: 10rem; }
-    .project-card h2 { font-size: 1.2rem; }
-    .project-card p { font-size: 0.9rem; }
-    .project-card a { font-size: 1rem; }
-}
-
-/* Small Devices - 360p */
-@media (max-width: 480px) {
-    header h1 { font-size: 2rem; }
-    header h2 { font-size: 1.2rem; }
-    header a { font-size: 0.8rem; }
-    .project-card { width: 20rem; height: 20rem; }
-    .project-card img { width: 18rem; height: 8rem; }
-    .project-card h2 { font-size: 1.1rem; }
-    .project-card p { font-size: 0.8rem; }
-    .project-card a { font-size: 0.9rem; }
+.flexbox1 {
+    position: relative;
+    z-index: 2;
 }
