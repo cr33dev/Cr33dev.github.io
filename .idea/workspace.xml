@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c35282a-50f7-43d2-a631-55e869699eee" name="Changes" comment="" />
+    <list default="true" id="7d4b2734-5f55-437d-8e5a-3a24c851fbe1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/install.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Cr33pkill.github.io.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace-DESKTOP-CH1N02V.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace-DESKTOP-DD4FMA0-2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace-DESKTOP-DD4FMA0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.css" beforeDir="false" afterPath="$PROJECT_DIR$/404.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new style.css" beforeDir="false" afterPath="$PROJECT_DIR$/new style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,20 +28,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/index.html" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
 }</component>
-  <component name="ProjectId" id="2wvM6bG9R5sXsXSXd0VmUpsakp1" />
+  <component name="ProjectId" id="2xBo9cOdDo5AUvJ9VDCHs2ItkFS" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,8 +50,6 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Documents/GitHub/Cr33pkill.github.io&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -57,24 +68,23 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4c35282a-50f7-43d2-a631-55e869699eee" name="Changes" comment="" />
-      <created>1746917419900</created>
+      <changelist id="7d4b2734-5f55-437d-8e5a-3a24c851fbe1" name="Changes" comment="" />
+      <created>1747420680563</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1746917419900</updated>
-      <workItem from="1746917422285" duration="476000" />
-      <workItem from="1746978632679" duration="410000" />
-      <workItem from="1746979090125" duration="1218000" />
-      <workItem from="1746993427326" duration="6516000" />
-      <workItem from="1747001023906" duration="2731000" />
-      <workItem from="1747065175912" duration="140000" />
-      <workItem from="1747065333748" duration="54000" />
-      <workItem from="1747065408100" duration="18149000" />
-      <workItem from="1747256149777" duration="121000" />
+      <updated>1747420680563</updated>
+      <workItem from="1747420682141" duration="10566000" />
+      <workItem from="1747435765706" duration="754000" />
+      <workItem from="1747436657548" duration="842000" />
+      <workItem from="1747481800286" duration="2703000" />
+      <workItem from="1747485130157" duration="16063000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="sitemap.xml" />
   </component>
 </project>
