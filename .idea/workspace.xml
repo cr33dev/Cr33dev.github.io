@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d4b2734-5f55-437d-8e5a-3a24c851fbe1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/install.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Cr33pkill.github.io.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace-DESKTOP-CH1N02V.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace-DESKTOP-DD4FMA0-2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace-DESKTOP-DD4FMA0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.css" beforeDir="false" afterPath="$PROJECT_DIR$/404.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new style.css" beforeDir="false" afterPath="$PROJECT_DIR$/new style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +35,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -78,6 +68,19 @@
       <workItem from="1747436657548" duration="842000" />
       <workItem from="1747481800286" duration="2703000" />
       <workItem from="1747485130157" duration="16063000" />
+      <workItem from="1747733855622" duration="668000" />
+      <workItem from="1747735519527" duration="619000" />
+      <workItem from="1747777317265" duration="1223000" />
+      <workItem from="1747838634516" duration="389000" />
+      <workItem from="1747839110829" duration="1795000" />
+      <workItem from="1747863638562" duration="774000" />
+      <workItem from="1747926742331" duration="635000" />
+      <workItem from="1748115272229" duration="606000" />
+      <workItem from="1748116446544" duration="4174000" />
+      <workItem from="1748165763117" duration="1857000" />
+      <workItem from="1748202069970" duration="4339000" />
+      <workItem from="1748271592059" duration="3201000" />
+      <workItem from="1748350664352" duration="1153000" />
     </task>
     <servers />
   </component>
