@@ -6,8 +6,37 @@
   <component name="ChangeListManager">
     <list default="true" id="7d4b2734-5f55-437d-8e5a-3a24c851fbe1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/404.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Install.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Install.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InstallationGuide.html" beforeDir="false" afterPath="$PROJECT_DIR$/InstallationGuide.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Miku_Miku.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/Miku_Miku.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Syntheia.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Syntheia.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Syntheia.html" beforeDir="false" afterPath="$PROJECT_DIR$/Syntheia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website.html" beforeDir="false" afterPath="$PROJECT_DIR$/Website.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/banner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/css.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/fullstack.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/github.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/github.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/github.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/html.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new style.css" beforeDir="false" afterPath="$PROJECT_DIR$/new style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/install.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/install.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jetbrains.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/jetbrains.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/js.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/krita.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/krita.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/new style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/papercut.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/papercut.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/papercut2.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/papercut2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/python.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/react.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/syntheia.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/syntheia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vsc.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/vsc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/website.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/website.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/website.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/windowsserver.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/windowsserver.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +78,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\OneDrive\Documents\GitHub\Cr33pkill.github.io\images" />
+      <recent name="C:\Users\Admin\OneDrive\Documents\GitHub\Cr33pkill.github.io\js" />
+      <recent name="C:\Users\Admin\OneDrive\Documents\GitHub\Cr33pkill.github.io\css" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -81,6 +117,7 @@
       <workItem from="1748202069970" duration="4339000" />
       <workItem from="1748271592059" duration="3201000" />
       <workItem from="1748350664352" duration="1153000" />
+      <workItem from="1748381148164" duration="830000" />
     </task>
     <servers />
   </component>
