@@ -36,6 +36,7 @@ html, body {
     text-align: center;
     scroll-behavior: smooth;
     overflow-x: hidden;
+    overscroll-behavior: contain;
 }
 body {
     background-color: var(--highlight-bg);

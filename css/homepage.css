@@ -31,6 +31,8 @@ html, body {
     overflow-x: hidden;
     scroll-behavior: smooth;
     font-family: "Arial Black", "Helvetica Bold", sans-serif;
+    overscroll-behavior: contain;
+    overflow-y: scroll;
 }
 
 ::selection {
@@ -307,7 +309,16 @@ header a:hover {
 .about-me img:hover {
     transform: rotate(10deg) scale(1.1);
 }
-
+.cm-flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+.email {
+    text-align: left;
+}
 /*==============================
     Circular Image Display
 ==============================*/
@@ -320,11 +331,12 @@ header a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1rem auto;
+    margin: 2rem;
     position: relative;
     box-shadow: 0 0 15px var(--purple),
     0 0 30px var(--pink);
-    transition: transform 0.8s ease-in-out;
+    transition: transform 0.8s cubic-bezier(0.4, 0.2, 0.2, 1);
+    transform: rotate(0deg);
 }
 
 .CIRCULAR:hover {

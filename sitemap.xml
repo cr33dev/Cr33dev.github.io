@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
     <!-- Main homepage -->
     <url>
         <loc>https://cr33pkill.software/</loc>
@@ -27,4 +28,19 @@
         <changefreq>yearly</changefreq>
         <priority>0.3</priority>
     </url>
+
+    <!-- Weather app blog -->
+    <url>
+        <loc>https://cr33pkill.software/weather-app.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <!-- Website main page -->
+    <url>
+        <loc>https://cr33pkill.software/Website.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+    </url>
+
 </urlset>

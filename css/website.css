@@ -18,8 +18,9 @@
     --bright-orange: #ff9f43;
     --light-cyan: #4dd0e1;
     --watermelon-pink: #ff4f81;
-}
-
+}html, body {
+     overflow: hidden;
+ }
 body {
     margin: 0;
     padding: 0;
