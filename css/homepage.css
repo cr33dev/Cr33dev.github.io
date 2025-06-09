@@ -118,7 +118,9 @@ header a:hover {
     background-color: var(--highlight-bg);
     position: relative;
 }
-
+.background-change h1,h2{
+    color: var(--pink);
+}
 .background-change::before {
     content: "";
     position: absolute;

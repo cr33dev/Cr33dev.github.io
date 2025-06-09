@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d4b2734-5f55-437d-8e5a-3a24c851fbe1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Syntheia.html" beforeDir="false" afterPath="$PROJECT_DIR$/Syntheia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Website.html" beforeDir="false" afterPath="$PROJECT_DIR$/Website.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather-app.html" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +100,7 @@
       <workItem from="1748645344544" duration="2653000" />
       <workItem from="1748648329159" duration="405000" />
       <workItem from="1748808190908" duration="3216000" />
-      <workItem from="1749507085914" duration="239000" />
+      <workItem from="1749507085914" duration="358000" />
     </task>
     <servers />
   </component>
