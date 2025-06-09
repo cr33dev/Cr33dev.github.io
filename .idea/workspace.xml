@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d4b2734-5f55-437d-8e5a-3a24c851fbe1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InstallationGuide.html" beforeDir="false" afterPath="$PROJECT_DIR$/InstallationGuide.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/404.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/404.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Install.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Installationguide.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/new style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/homepage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/website.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/website.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Syntheia.html" beforeDir="false" afterPath="$PROJECT_DIR$/Syntheia.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Website.html" beforeDir="false" afterPath="$PROJECT_DIR$/Website.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather app.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/weather-app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weather-app.html" beforeDir="false" afterPath="$PROJECT_DIR$/weather-app.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +65,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-WS-251.25410.117" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-WS-251.26094.131" />
       </set>
     </attachedChunks>
   </component>
@@ -110,6 +104,7 @@
       <workItem from="1748645344544" duration="2653000" />
       <workItem from="1748648329159" duration="405000" />
       <workItem from="1748808190908" duration="3216000" />
+      <workItem from="1749507085914" duration="239000" />
     </task>
     <servers />
   </component>
